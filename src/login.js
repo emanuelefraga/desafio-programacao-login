@@ -23,8 +23,6 @@ const usuarios = [
 
 ];
 
-// Construir função para realizar login
-// Receber mensagem login realizado com sucesso
 
 export function fazerLogin(emailInformado, senhaInformada) {
   if (!emailInformado || !senhaInformada) {
